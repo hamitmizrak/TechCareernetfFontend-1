@@ -1,0 +1,162 @@
+<!-- html5:Ctrl+Shift+k -->
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html5 dersleri</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../img/sunflowers-gb456ab118_1920.jpg"
+    />
+  </head>
+  <body>
+    <!-- code start -->
+
+    <!-- heading  -->
+    <h1>heading-1</h1>
+    <h2>heading-2</h2>
+    <h3>heading-3</h3>
+    <h4>heading-4</h4>
+    <h5>heading-5</h5>
+    <h6>heading-6</h6>
+    <br />
+    <hr />
+
+    <!-- paragraf -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, ab.
+      Quibusdam sapiente error provident unde.
+    </p>
+    <hr />
+    <span>inline aynı satırda</span> <span>deneme</span>
+    <hr />
+    <div>block: alt satıra geçer</div>
+    <hr />
+    <!-- html formatter -->
+    <b>bold</b> <br />
+    <i>italic</i> <br />
+    <big>big</big> <br />
+    <small>small</small> <br />
+    <strong>strong</strong><br />
+    <em>vurgula</em><br />
+    <code>System.out.println("Deneme");</code> <br />
+    10<sup>5</sup> <br />
+    log<sub>2</sub>n<br />
+    <del>1000</del>TL 999 TL <br />
+    <mark>Fosforlu kalem</mark><br />
+
+    <!-- ul unordered List -->
+    <!-- ul>li{item $}*5 -->
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ul>
+    <br />
+
+    <!-- ol ordered List -->
+    <ol start="1" type="A">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ol>
+    <br />
+
+    <!-- images -->
+    <img
+      src="../img/sunflowers-gb456ab118_1920.jpg"
+      width="55%"
+      alt="resim yok"
+    />
+    <br />
+    <a href="https://www.techcareer.net/" target="_blank">Click Me</a>
+    <br />
+    <!-- table>(thead>tr>th{item $}*3)+(tbody>tr>td{item $}*3)+(tfoot>tr>th{item $}*1) -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>FrontEnd</th>
+          <th>Backend</th>
+          <th>Database</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Html5</td>
+          <td>JavaScript</td>
+          <td>Postgresql</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="3">&copy; Bütün haklar saklıdır</th>
+        </tr>
+      </tfoot>
+    </table>
+    <br /><br />
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+    <br />
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <br />
+    <h1>Form</h1>
+    <form action="#" method="get" autocomplete="true">
+      <input
+        type="text"
+        placeholder="adınızı soyadınız giriniz"
+        autofocus
+        required
+      />
+      <br /><br />
+      <input
+        type="email"
+        placeholder="email adresinizi giriniz"
+        required
+      /><br /><br />
+      <input
+        type="password"
+        placeholder="şifre  giriniz"
+        required
+      /><br /><br />
+
+      Java:<input type="checkbox" name="readme1" id="readme2" /><br />
+      Mysql:<input type="checkbox" name="readme2" id="readme2" /><br />
+
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label><br />
+
+      <button type="reset">Temizle</button>
+      <input type="submit" value="Gönder" />
+    </form>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <!-- code end -->
+  </body>
+</html>
